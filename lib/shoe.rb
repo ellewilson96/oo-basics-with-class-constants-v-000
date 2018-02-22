@@ -12,6 +12,7 @@ class Shoe
       label.delete
     else
       BRANDS
+    end
   end
 
   def cobble

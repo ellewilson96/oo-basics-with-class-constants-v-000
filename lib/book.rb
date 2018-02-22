@@ -1,4 +1,4 @@
-class Book: :GENRES
+class Book :GENRES
   attr_accessor :author, :page_count, :genre
   attr_reader :title
 

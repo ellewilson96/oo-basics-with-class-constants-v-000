@@ -8,7 +8,7 @@ class Shoe
     @brand = brand
     BRANDS << brand
     counts = Hash.new(0)
-    if (BRANDS.each { |label| counts[label] += 1 }) > 1
+    if BRANDS.each { |label| counts[label] += 1 }
       label.delete
     else
       BRANDS

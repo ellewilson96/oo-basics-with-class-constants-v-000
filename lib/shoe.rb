@@ -7,6 +7,8 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS << brand
+    counts = Hash.new(0)
+    BRANDS.each { |label| counts[label] += 1 }
   end
 
   def cobble
